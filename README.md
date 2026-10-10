@@ -1,21 +1,38 @@
-# React + Vite
+# AI-Summarizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive web application built with **React** and **Vite** that summarizes text and articles using the **Puter.js** AI API. Styled with **Tailwind CSS**, it provides an intuitive, high-performance interface for fast content processing.
 
-Currently, two official plugins are available:
+> **Local Development URL:** [http://localhost:5173/](http://localhost:5173/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **AI-Powered Summarization:** Leverages the Puter.js AI SDK for instant text processing.
+- **Fast Build & Hot Reload:** Powered by Vite for optimized build performance and instant hot module replacement.
+- **Modern Responsive UI:** Designed using Tailwind CSS for clean layout and smooth responsiveness across screens.
+- **Minimal Footprint:** Built on React 19 architecture without heavy backend requirements.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
 
-\
-the local host link
+- **Frontend:** React 19, JavaScript (ES Modules)
+- **Bundler & Tooling:** Vite
+- **Styling:** Tailwind CSS (`@tailwindcss/vite`)
+- **AI Integration:** [Puter.js v2](https://puter.com)
 
-http://localhost:5173/
+---
+
+## Getting Started
+
+### Prerequisites
+
+Ensure you have **Node.js** (v18+) and **npm** installed on your system.
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Strombreker7/AI-Summarizer.git](https://github.com/Strombreker7/AI-Summarizer.git)
+   cd AI-Summarizer
